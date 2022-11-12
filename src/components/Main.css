@@ -1,0 +1,42 @@
+.container-main {
+  display: flex;
+  flex-direction: column;
+  height: 460px;
+  background: #282D35;
+  border: 1px solid black;
+  background-image: url("/reactjs-icon\ 2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.main-title {
+  color: white;
+  margin-left: 30px;
+  font-size: 40px;
+  font-weight: 700px;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.full-list {
+  color: white;
+  padding-left: 80px;
+  margin: 0;
+}
+
+li {
+  text-align: left;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 19px;
+  width: 390px;
+}
+
+li::marker {
+  font-size: 1.8em;
+  color: #61DAFB;
+}
